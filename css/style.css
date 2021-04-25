@@ -359,7 +359,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--hero-title-color);
+  color: #afb1b8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -368,10 +368,6 @@ body {
 .team-social__link:hover,
 .team-social__link:focus {
   background-color: var(--accent-color);
-}
-
-.team-social__icon:hover,
-.team-social__icon:focus {
   color: #ffffff;
 }
 
@@ -381,7 +377,6 @@ body {
 
 .team-social__icon {
   fill: currentColor;
-  color: #afb1b8;
 }
 
 .clients {
@@ -465,14 +460,15 @@ body {
   margin: auto;
   padding: 6px 22px;
   margin-right: 8px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #f5f4fa;
 }
 
 .port-cursor-btn:hover,
 .port-cursor-btn:focus {
   background: var(--accent-color);
   color: var(--hero-title-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .port-project-names {
@@ -508,6 +504,11 @@ body {
   line-height: 1.71x;
   letter-spacing: 0.03em;
   color: var(--hero-title-color);
+}
+
+.location:hover,
+.location:focus {
+  color: var(--accent-color);
 }
 
 .address {
